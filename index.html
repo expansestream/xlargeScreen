@@ -1,107 +1,300 @@
-<!DOCTYPE html >
-<html>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>XLarge Screen jfarmsboulder Website</title>
+   </head>
+      <style>
+         body {
+            background-color: #8AA5C1;
+         }
+         #container {
+            width: 112em;
+            margin: 5em 5em 5em 5em;
+            box-sizing: border-box;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: black;
+        }
+        #layout {
+            display: grid;
+            grid-template-columns: 25.15em 29.65em 25.15em 25.15em;
+            grid-column-gap: .5em;
+        }
+         #one {
+            padding: .5em;
+            border-style: solid;
+            border-width: .125;
+            background-color: lemonchiffon;
+            grid-column: 1;
+         }
+         #two {
+            padding: .25em;
+            border-style: solid;
+            border-width: .125;
+            background-color: lemonchiffon;
+            grid-column: 2;
+         }
+         #three {
+            padding: .5em;
+            border-style: solid;
+            border-width: .125;
+            background-color: lemonchiffon;
+            grid-column: 3;
+         }
+         #four {
+            padding: .5em;
+            border-style: solid;
+            border-width: .125;
+            background-color: lemonchiffon;
+            grid-column: 4;
+         }
+         img {
+            border-width: .5em;
+            border-style: solid;
+            border-color: lemonchiffon;
+            float: left;
+         }
+         td {
+            text-align: center;
+         }
+         #borderbox {
+            background: khaki;
+            width: 23em;
+            height: 22.5em;
+            padding: .125em;
+            border: .125em solid darkgray;
+            margin: auto;
+         }
+         #senzaiExample {
+            display: flex;
+         }
+         #senzaiPlants {
+            display: block;
+            line-height: .125em;
+         }
+         .USA {
+                font-size: large;
+                box-shadow: 0 4px 2px rgba(0,0,0,.5);
+                border-style: solid;
+                border-width: .125em;
+                border-radius: .5em;
+                border-color: black;
+                background-color: aquamarine;
+                position: relative;
+                top: 0px;
+                transition:
+                background-color 0.5s ease-in,
+                border-color 0.5s ease-in,
+                top 0.2s,
+                box-shadow 0.2s;
 
-<head>
-<meta charset="utf-8">
-<title>Black Goose Bistro Summer Menu</title>
-<link href='http://fonts.googleapis.com/css?family=Marko+One' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="menustyles.css">
+            }
+            .USA:hover, .USA:focus {
+            cursor: pointer;
+            background-color: lightgreen;
+            border-color: darkkhaki;
+            }
+            .USA:active {
+            top: 3px;
+            box-shadow: 0 1px 2px rgba(0,0,0,.5);
+            } 
+         #B {
+            position: absolute;
+            top: 6em;
+            left: 8.5em;
+            }
+         #C {
+            position: absolute;
+            top: 6em;
+            left: 17em;
+            -webkit-animation: bobble .5s 3 ease-in;
+            -moz-animation: bobble .5s 3 ease-in;
+            animation: bobble .5s 3 ease-in;
+         }
+         @keyframes bobble {
+    0% {
+        transform: translateY(-5px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    75% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(-1px);
+    }
+}
+         #lawn {
+            z-index: 50;
+            position: absolute;
+            background: khaki;
+            width: 55.3em;
+            border: .125em solid darkgray;
+         }
+         #monarch {
+            z-index: 50;
+            position: absolute;
+            background: khaki;
+            width: 55.3em;
+            border: .125em solid darkgray;
+         }
+         td {
+            text-align: center;
+         }       
+         #senzaiExample {
+            display: flex;
+         }
+         #senzaiPlants {
+            display: block;
+            line-height: .125em;
+         }
+      </style>
+   <body>
+      <div id="container">
+        <div id="layout">
+            <div id="one">
+               <img src="https://github.com/expansestream/butterflygarden/blob/main/jfarms_cropped.jpg?raw=true" height="220" width="365" alt="jfarms cropped logo">
+                  <p id="B"><button class="USA">Lawn Redo</button></p>
+                  <dialog id="lawn">
+                     <span style="text-align: left">
+                        <img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0091.jpg?raw=true" height="150" width="auto" alt="side yard">
+                        <p>In addition to obtaining horticultural knowledge unique to Colorado, jfarmsboulder was interested in CSU&#8217;s Certified Gardener program because there was a section devoted to lawn care. As new homeowners, jfarms was excited to improve the landscape, transform their yard into a xeric paradise, reduce their water bill; in short, letting the lawn grow in accordance with nature.</p>
+                        <p></p> 
+                        <p>One of the first attempts was to transform portions of the front yard into a field of thyme. It never worked because the neighborhood rabbit population made short work of the plantings, even when they were protected with metal-mesh window screen material. Then came the bind weed. It was pervasive.  The owners tried to control it by extracting it from its roots, but alias.  The tap root of a bind weed can be over 6&quot; long!  At this point, it became clear that a &ldquo;mommy makeover&rdquo; was in order.</p>
+                        <p>Fortunately, CSU has a publication outlining the steps to redo one&rsquo;s lawn <a href="https://extension.colostate.edu/docs/pubs/garden/07241.pdf" target="display">click here</a>.  CSU&rsquo;s technique works, with the following caveats:</p>
+                        <ul>
+                           <li>The technique recommends using Roundup&reg; as one of the first steps to kill the existing lawn.  Roundup&reg; does knock out what was previously planted.  It does not, however, inhibit the new growth of the replacement lawn.</li>
+                           <li>Block off the lawn into 6&quot;x6&quot; sections that can be easily managed.  If one chooses to do an entire yard at once, be prepared to follow through in short order.  Unfortunately, jfarms tired doing a large their back section of yard, applying Roundup&reg;, prepping the soil, but delayed planting new seed for 2 weeks.  <span style="color:red">BIG MISTAKE!</span>  With nothing in the ground to germinate, the weeds came back with a vengeance!</li>
+                           <li>CSU&rsquo;s technique showed the most success when shady areas of the existing lawn were replanted as shown above.</li>
+                        </ul>
+                     </span>
+                        <button class="USA" type="reset" id="cancellawn">Close</button>
+                  </dialog>
 
-<!---https://github.com/expansestream/butterflygarden/blob/main/IMG_0606.jpg?raw=true--->
-
-<!---<style>
-    @import url("https://github.com/expansestream/butterflygarden/blob/main/external.css");
-</style>--->
-</head>
-
-<body>
-
-<header>
-<h1>Black Goose Bistro &bull; Summer Menu</h1>
-
-<div id="info">
-<p>Baker's Corner, Seekonk, Massachusetts<br>
-<span class="label">Hours: Monday through Thursday:</span> 11 to 9, <span class="label">Friday and Saturday;</span> 11 to midnight</p>
-<ul>
-<li><a href="#appetizers">Appetizers</a></li>
-<li><a href="#entrees">Main Courses</a></li>
-<li><a href="#toast">Traditional Toasts</a></li>
-<li><a href="#dessert">Dessert Selection</a></li>
-</ul>
-</div>
-</header>
-
-<section id="appetizers">
-<h2>Appetizers</h2>
-<p>This season, we explore the spicy flavors of the southwest in our appetizer collection.</p>
-
-<dl>
-<dt>Black bean purses</dt>
-<dd>Spicy black bean and a blend of mexican cheeses wrapped in sheets of phyllo and baked until golden. <span class="price">$3.95</span></dd>
-
-<dt class="newitem">Southwestern napoleons with lump crab &mdash; <strong>new item!</strong></dt>
-<dd>Layers of light lump crab meat, bean and corn salsa, and our handmade flour tortillas. <span class="price">$7.95</span></dd>
-</dl>
-</section>
-
-<section id="entrees">
-
-<h2>Main courses</h2>
-<p>Big, bold flavors are the name of the game this summer. Allow us to assist you with finding the perfect wine.</p>
-
-
-<dl>
-
-<dt class="newitem">Jerk rotisserie chicken with fried plantains &mdash; <strong>new item!</strong></dt>
-<dd>Tender chicken slow-roasted on the rotisserie, flavored with spicy and fragrant jerk sauce and served with fried plantains and fresh mango. <strong>Very spicy.</strong> <span class="price">$12.95</span></dd>
-
-<dt>Shrimp sate kebabs with peanut sauce</dt>
-<dd>Skewers of shrimp marinated in lemongrass, garlic, and fish sauce then grilled to perfection. Served with spicy peanut sauce and jasmine rice. <span class="price">$12.95</span></dd>
-
-<dt>Grilled skirt steak with mushroom fricasee</dt>
-<dd>Flavorful skirt steak marinated in asian flavors grilled as you like it<sup>*</sup>. Served over a blend of sauteed wild mushrooms with a side of blue cheese mashed potatoes. <span class="price">$16.95</span></dd>
-</dl>
-
-</section>
-
-<section id="toast">
-<h2>Traditional Toasts</h2>
-<p>The ultimate comfort food, our traditional toast recipes are adapted from <a href="http://www.gutenberg.org/files/13923/13923-h/13923-h.htm"><cite>The Whitehouse Cookbook</cite></a> published in 1887.</p>
-
-<dl>
-<dt>Cream toast</dt>
-<dd>Simple cream sauce over highest quality toasted bread, baked daily. <span class="price">$3.95</span></dd>
-
-<dt>Mushroom toast</dt>
-<dd>Layers of light lump crab meat, bean and corn salsa, and our handmade flour tortillas. <span class="price">$6.95</span></dd>
-
-<dt>Nun's toast</dt>
-<dd>Onions and hard-boiled eggs in a cream sauce over buttered hot toast. <span class="price">$6.95</span></dd>
-
-<dt>Apple toast</dt>
-<dd>Sweet, cinnamon stewed apples over delicious buttery grilled bread. <span class="price">$6.95</span></dd>
-</dl>
-</section>
-
-<section id="dessert">
-<h2>Dessert Selection</h2>
-<p>Be sure to save room for our desserts, made daily by our own <a href="http://www.jwu.edu/college.aspx?id=19510">Johnson & Wales</a> trained pastry chef.</p>
-
-<dl>
-<dt class="newitem">Lemon chiffon cake &mdash; <strong>new item!</strong></dt>
-<dd>Light and citrus flavored sponge cake with buttercream frosting as light as a cloud. <span class="price">$2.95</span></dd>
-
-<dt class="newitem">Molten chocolate cake</dt>
-<dd>Bubba's special dark chocolate cake with a warm, molten center. Served with or without a splash of almond liqueur. <span class="price">$3.95</span></dd>
-</dl>
-</section>
-
-<footer>
-<p class="warning"><sup>*</sup> We are required to warn you that undercooked food is a health risk.</p>
-</footer>
-
-</body>
+                   <script> 
+                     document.getElementById("B").addEventListener("click",description1,false);
+                        function description1() {
+                        dialog = document.getElementById("lawn");
+                        dialog.show();   
+                        };
+                        document.getElementById("cancellawn").addEventListener("click",description2,false);
+                        function description2() {
+                        dialog = document.getElementById("lawn");
+                        dialog.close();   
+                        };
+                  </script>
+                  
+                  <p id="C"><button class="USA">Monarch Butterflies</button></p>
+                  <dialog id="monarch">
+                     <span style="text-align: left">
+                        <img src="https://monarchwatch.org/waystations/monarch_waystation_program.png" height="300" width="auto" alt="monarch_waystation_program">
+                           <p>The seeds of jfarmsboulder were sewn in the fall of 2016.  As the nation was gripped in the presidential election, Denver tv channels began reporting mysterious sightings on their weather radar systems.  For close to two weeks, light blue images, thought to be fog-like moisture, could be seen on their websites.  Public interest soared.  Explanations were few.  Ground clutter was thought to be the culprit, but no.  The images were plumes of Painted Lady butterflies, so dense, that they were detected by radar!  When jfarms approached one of their soon-to-be clients, the expectation was that a butterfly garden would induce the Painted Ladies to return year-after-year.</p>
+                           <p></p>
+                           <p>Well, that never happened.  What did happen was that a large butterfly garden took shape, and the interest shifted to attracting Monarch Butterflies.  In fact, the butterfly garden is registered as a Monarch Way Station, one of the largest in Colorado.</p>  
+                           <p></p>
+                           <p>So, where are the butterflies?  In the eight years since 2016, there have been butterflies in the garden, primarily Painted Ladies, Swallow Tails, and an occasional Monarch or two.  The University of Kansas, the promoter of the Monarch Way Station program, has been monitoring the Monarch population in the United States and Mexico for several years.  This is important because like most of us, jfarms loves to see the concluding segment if a David Attenborough or Morgan Freeman nature documentary conclude with massive swarms of Monarch Butterflies crowding the forests of southern Mexico where they spend the winter.</p>
+                           <p></p>
+                           <p>The Monarchs are in trouble.  The 2023-2024 over-wintering population in Mexico is the 2<sup>nd</sup> lowest ever recorded.  This is well documented in KU&#8217;s Monarch Watch blog <a href=https://monarchwatch.org/blog/ target=”display”>click here</a>.  Of particular interest is the map of North America showing the flyways of the Monarch.  Colorado is on the extreme (the very extreme) western edge of their flight path.  Hopefully butterfly gardens like the one managed by jfarmsboulder will entice them to take a second look as they pass Colorado!</p>
+                     </span>
+                        <button class="USA" type="reset" id="cancelmonarch">Close</button>
+                     </dialog>
+                     
+                  <script>
+                     document.getElementById("C").addEventListener("click",discreption3,false);
+                        function discreption3() {
+                        dialog = document.getElementById("monarch");
+                        dialog.show();   
+                        };
+                        document.getElementById("cancelmonarch").addEventListener("click",discreption4,false);
+                        function discreption4() {
+                        dialog = document.getElementById("monarch");
+                        dialog.close();   
+                        };
+                  </script>
+                  <img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_2094%20(2).JPEG?raw=true" height="150" width="auto" alt="CA Garden after July summer rain">                  
+                    <p>Thank you for taking a look at jfarmsboulder, a Colorado company founded in the summer of 2016, co-managed by Roz Greene and John Brand. The company was initially created to grow certain <a href = "https://plantselect.org/" target="display">Plant Select<sup>&reg;</sup></a> varieties of xeric plants that will survive the harsh environments of the Colorado Front Range. The company&#8217;s management has been interested in commercial growing for several years, and realized that warming global temperatures will enhance and increase the length of the Colorado growing season.</p>
+                    <img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0165.jpg?raw=true" height="150" width="auto" alt="Indoor Growing">
+                    <p>Several indoor growing medium were explored, including natural and artificial lighting, hydroponic and soil, growing year-round, and partial year growing. The most current iteration includes growing seeds in high-quality potting soil and watering with Denver water from the tap. The hydroponic process produces remarkable initial results, only to be decimated by aphids. Where they come from, and how they get indoors is one of life's greatest mysteries.</p>
+                    <!---<img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0464.jpg?raw=true" height="273" width="auto" alt="Room 1">--->
+                    <div id="borderbox">
+                        <img style="margin: 2em 3.25em 2em 2.50em" src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0589.jpg?raw=true" height="200" width="auto" alt="Room 1">
+                        <span style="text-align: center"><p>To see how fast things grow indoors, <a href="https://expansestream.github.io/room1SmallSlide/" target=”display”>click here</a>.</p></span>
+                     </div>
+                     <p></p>
+                     <div id="borderbox">
+                        <img style="margin: 2em 3.25em 2em 2.50em" src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0590.jpg?raw=true" height="200" width="auto" alt="Room 2">
+                        <span style="text-align: center"><p>To see how fast things grow indoors, <a href="https://expansestream.github.io/room2SmallSlide/" target=”display”>click here</a>.</p></span>
+                     </div>
+            </div>
+            <div id="two">
+                     <!---<img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0480.jpg?raw=true" height="335" width="auto" alt="Room 2">
+                     <p>To see how fast things grow indoors, <a href="https://expansestream.github.io/room1SmallSlide/"target=”display”>click here</a>.</p>--->
+                    <img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0429.JPG?raw=true" height="150" width="auto" alt="Outdoor Milkweed">
+                    <p>Optimal growing conditions include starting seeds immediately following the winter solstice, with germination proceeding through Mother's Day, followed by a hardening-off period to mid-June. The company has expanded to manage outdoor growing spaces in excess of 1/2 acre. Xeric varieties include these common plants:</p>
+               <table>
+                  <tbody>
+                     <tr><td><img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0162.jpg?raw=true" height="100" width="130" alt="Purple Coneflower"></td><td><img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0069.jpg?raw=true" height="100" width="130" alt="Speciosa"></td><td><img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0110.jpg?raw=true" height="100" width="auto" alt="Salvia"></td></tr>
+                     <tr><td>Purple Coneflower</td><td>Speciosa</td><td>Salvia</td></tr>
+                     <tr><td><img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0106.jpg?raw=true" height="100" width="auto" alt="Agastache Coronado"></td><td><img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0108.jpg?raw=true" height="100" width="auto" alt="Asclepias tuberosa"></td><td><img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0107.jpg?raw=true" height="100" width="130" alt="Russian Sage"></td></tr>
+                     <tr><td>Coronado</td><td>Tuberosa</td><td>Russian Sage</td></tr>
+                     <tr><td><img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0102.jpg?raw=true" height="100" width="130" alt="Butterfly Bush"></td><td><img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0112.jpg?raw=true" height="100" width="auto" alt="Anise Hyssop"></td><td><img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0179.jpg?raw=true" height="100" width="auto" alt="Rabbit Brush"></td></tr>
+                     <tr><td>Butterfly Bush</td><td>Anise Hyssop</td><td>Rabbit Brush</td></tr>
+                     <tr><td><img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0097.jpg?raw=true" height="100" width="auto" alt="Galardia"></td><td><img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0111.jpg?raw=true" height="100" width="auto" alt="Hollyhock"></td><td><img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0078.jpg?raw=true" height="100" width="130" alt="Penstemon"></td></tr>
+                     <tr><td>Coreposis</td><td>Hollyhock</td><td>Penstemon</td></tr>
+                     <tr><td><img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0115.jpg?raw=true" height="100" width="auto" alt="Blue Mist Spirea"></td><td><img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0101.jpg?raw=true" height="100" width="130" alt="Incarnata"></td><td><img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0070.jpg?raw=true" height="100" width="auto" alt="Speciosa Field"></td></tr>
+                     <tr><td>Blue Mist Spirea</td><td>Incarnata</td><td>Speciosa Field</td></tr>
+                  </tbody>
+               </table>
+               <p></p>
+               <img style="border-style: inset" src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0228.jpg?raw=true" height="150" width="200" alt="Certified Gardener Certificate">
+                     <p>In 2021 one the co-managers, John Brand, was designated a <q>Certified Gardener</q> by Colorado State University. CSU&#8217;s Certified Gardener program proves proficiency in several areas. It introduces <q>tribal knowledge</q> to urban farmers, knowledge that would be passed down from generation-to-generation in rural agricultural communities. Topics covered include:
+                        <div id="borderbox">
+                           <ul>
+                              <li>Insects - Which are beneficial.</li>
+                              <li>Plant Diseases - How to identify.</li>
+                              <li>Weeds - Legitimate plants.</li>
+                              <li>The Diagnostic Process - Is it sick?</li>
+                              <li>Identifying Trees and Shrubs - What is it?</li>
+                              <li>Tree Selection and Planting - Planting a tree.</li>
+                              <li>Pruning - Best time to prune.</li>
+                              <li>Soils, Fertilizers & Soil Amendments - A lot!</li>
+                              <li><a href="https://github.com/expansestream/butterflygarden/blob/main/website_herbaceousplantpresentation%20(2).gif?raw=true" target=”display”>Herbaceous Plants</a> - Woody Stems!</li>
+                              <li>Lawn Care - Source of carbon capture?</li>
+                              <li>Irrigation Management - Doing with less.</li>
+                              <li>Water Wise Landscape Design - Plant Select<sup>&reg;</sup>.</li>
+                              <li>How Plants Grow - Method to the madness!</li>
+                              <li>Tree Fruits - Large fruit.</li>
+                              <li>Small Fruits - Smaller fruit.</li>
+                              <li>Vegetables - Traditional gardening.</li>
+                              </span>
+                           </ul> 
+                        </div>
+            </div>
+            <div id="three">
+                        <img src="https://github.com/expansestream/butterflygarden/blob/main/finding_Solice.png?raw=true">
+                        <p>While active in St. John&#8217;s Episcopal Cathedral&#8217;s Green Team, the co-managers were introduced to Dr. Bonnie J. Clark&#8217;s book <span style="text-decoration: underline">Finding Solace in the Soil</span>. Dr. Clark, the Chair of The University of Denver&#8217;s Anthropology Department, recounts 10 field seasons studying the gardens within the Amache internment camp in eastern Colorado. Dr. Clark&#8217;s graduate students excavated and documented the growing spaces tended by Japanese Americans between 1942-1945 at Amache. Her book was read while recuperating from hip surgery. It was an immense source of vision and encouragement, as seen in this self-running PowerPoint:</p>
+                        <img style="border-style: inset" src="https://github.com/expansestream/butterflygarden/blob/main/bookdiscussion3-15-23.gif?raw=true" height="200" width="363" alt="Power Point">
+                        <p>One of Dr. Clark&#8217;s takeaways is the idea of Senzai, a term applied to Japanese gardening. Senzai has its roots in the ancient Japanese capital of Kyoto and is used to describe a simple garden space, commonly containing at most 5 favorite species. Simple in stature, it is a place of profound peace. We were struck with the realization that according to Japanese gardening, one does not have to plant an entire expanse. Fields of green are nice, but a small space outside a window, on a shelf, in a corner of the yard, or in containers, is just fine!</p>        
+                        <img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0390.jpg?raw=true" height="150" width="auto" alt="Senzai Indoors">
+                        <div id="senzaiExample">
+                           <div id="senzaiPlants">
+                              <p style="text-decoration: underline">Senzai Indoors</p>
+                              <p>Spider Plants</p>
+                              <p>Agavi</p>
+                              <p>Road Trip</p>
+                              <p>Amaryllis</p>
+                              <p>Cranton</p>
+                              <p>Birthday Assortment</p> 
+                           </div>
+                        </div>                             
+            </div>
+            <div id="four">
+               <img src="https://github.com/expansestream/butterflygarden/blob/main/Haystack_Rock_jfarms.jpg?raw=true" height="465" width="auto" alt="Haystack Rock">
+               <p style="text-align: center">jfarmsboulder 9127 West Radcliffe Drive Littleton, CO 80123-1125  (303) 638-1965 <a href="mailto:jfarmsboulder@gmail.com">jfarmsboulder@gmail.com</a></p>      
+            </div>
+        </div>
+      </div>
+   </body>
 </html>
-
-
-
